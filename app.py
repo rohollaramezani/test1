@@ -6,7 +6,8 @@ class HelloWorld:
     def greating(self):
         return f"Hello my friend {self.name}"
 
-
+    def say_goodby(self):
+         return f"Good by {self.name}"
 name=input("Please Enter your name: ")
 
 c=HelloWorld(name)
